@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+	<title>Formularis</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<h4>Dades personals</h4>
+	<form action="matricules/http:registre.php" method="POST" target="_blank" name="formulari">
+	
+	<label>Nom <input type="text" name="nom" value="" size="10" maxlength="10" required=""></label><br><br>
+	<label>Email <input type="Email" name="email" value="" size="20" maxlength="20" required=""></label><br><br>
+	<label>Telèfon <input type="tel" name="telèfon" value="" size="10" maxlength="10"></label><br><br>
+	<label>Web/blog personal <input type="url" name="web/blog personal" value="" size="20" maxlength="20"></label><br><br>
+	<label>Data de naixament <input type="date" name="Data de naixement" " min="1980-01-01" max="2017-04_26" required=""></label><br><br>
+	<hr>
+	<label>Coneixements HTML <input type="number" name="nivell de coneixements" min="1" max="10"></label>
+	
+
+	<h4>Dades del curs</h4>
+	<select name="Cursos">
+		<option value="Escull una opció">Escull una opció</option>
+		<option value="HTML">HTML</option>
+		<option value="CSS">CSS</option>
+		<option value="JavaScript">JavaScript</option>
+		<option value="HTML5">HTML5</option>
+		<option value="AnimacionsWeb">AnimacionsWeb</option>
+		<option value="Usabilitat">Usabilitat</option>
+		<option value="Accessibilitat">Accessibilitat</option>
+		<option value="PHP">PHP</option>
+		<option value="Base de Dades">Base de Dades</option>
+	</select>
+	<br><br>
+	
+	<label>Horari:<input type="radio" name="Horari" value="matí">Matí</label>
+				  <input type="radio" name="Horari" value="tarda"> Tarda</label>
+				  <label><input type="radio" name="horari" value="Migdia"> Migdia</label><br><br>
+
+	Dispositius <br><br><select name="Eines" multiple="">
+		<option value="Cap d'aquestes">No tinc cap</option>
+		<option value="Portàtil">Portàtil</option>
+		<option value="Mòbil">Mòbil</option>
+		<option value="Tablet">Tablet</option>
+		<option value="Consola">Consola</option>
+	</select>
+
+		
+		<br><br>
+			<input type="reset" name="reset" value="Resetejar">
+		
+			<input type="submit" name="Enviar" value="Enviar">
+
+		<footer>
+		<hr>
+		<strong>Omar Vares</strong> <em>Curs: Confecció i publicació pàgines web</em> <time datetime="2017-04-26">26-04-2017</time>
+	</footer>
+
+	</form>
+
+</body>
+</html>

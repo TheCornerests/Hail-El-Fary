@@ -1,0 +1,116 @@
+
+body{
+margin: 0;
+padding: 0;
+color: #FFF;
+
+}
+
+section{
+	margin: 0;
+	padding: 30px;
+}
+
+#destacat{
+	background-image: url(fons.jpg);
+	width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+.contingut{
+	width: 800px;
+	margin: 0 auto;}
+
+header{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#nosaltres{
+	background-color: #3ba5bb;
+
+}
+
+#serveis{
+	background-color: #d54202;
+}
+
+footer{
+	background-color: #263848
+}
+
+footer p{
+	color: #abc6df;
+}
+
+footer a{
+	color:#769191;
+}
+
+#nosaltres a:link{
+	border: 2px solid #fff;
+	padding: 30px;
+	margin: 20px 0;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 10px;
+}
+
+#nosaltres a:hover{
+			background-color: #fff;
+			border: 2px solid #3ba5bb;
+			color: #3ba5bb;}
+
+nav{
+	float: rigt;
+	background-color: rgba(0,0,0,0.6);
+
+	
+}
+
+ul{
+	float: right;
+	overflow: hidden;
+	clear: both;
+	background-color: rgba(0,0,0,0.6);
+
+
+}
+
+li{
+	display: inline-block;
+	border-left: 2px solid #FFF;
+	padding-left: 10px;
+	list-style-type: none;
+
+	
+
+}
+
+h1, h2, h3{
+	font-weight: bolder;
+	font-family: Timmana;
+}
+
+p{
+	font-family: verdana;
+
+}
+
+footer{
+	padding: 20px;
+}
+
+#serveis h2{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
